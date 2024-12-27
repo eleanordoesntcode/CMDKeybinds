@@ -37,4 +37,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: cmdkeybinds-artifacts-${{ steps.ref.outputs.branch }}
-          path: build/mods/*.jar
+          path: build/*.jar
